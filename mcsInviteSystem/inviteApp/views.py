@@ -31,7 +31,7 @@ def index(request):
             
             )
         userForm.save()
-        return render(request, 'base.html',{'userCodezz':uzrCode})
+        return render(request, 'bases.html',{'userCodezz':uzrCode})
     # else:
     #     return render(request, 'base.html')
-    return render(request, "base.html")
+    return render(request, "bases.html")
